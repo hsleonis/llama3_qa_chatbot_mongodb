@@ -4,7 +4,7 @@ A conversational chat interface where users can interact with the `Llama-2` lang
 Features:
 
 1. **Language Model Integration**:
-        The app integrates the `Llama` language model (LLM) for natural language processing. The model is initialized with a specified `Ollama` model and a callback manager for handling streaming standard output.
+        The app integrates the `Llama-2` language model (LLM) for natural language processing. The model is initialized with a specified `Ollama` model and a callback manager for handling streaming standard output.
 
 2. **User Interface**:
         The app's user interface is created using `Streamlit`. Users can input messages through the chat input interface. User messages are displayed in the chat, and the messages are added to the chat history.
