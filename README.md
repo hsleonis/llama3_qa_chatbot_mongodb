@@ -1,7 +1,7 @@
 # Llama2 in MongoDB: Conversational QA App
 A conversational chat interface where users can interact with the `Llama-2` language model, and the conversation history is logged in `MongoDB` for future reference.
 
-<img src="QA app.png" width="580px" />
+<img src="QA app.png" width="650px" />
 
 ## Features:
 
@@ -27,7 +27,7 @@ A conversational chat interface where users can interact with the `Llama-2` lang
         All user and AI messages are inserted into the `MongoDB` collection for logging and retrieval.
 
 ## Demo:
-<img src="demo.png" width="580px" />
+<img src="demo.png" width="650px" />
 
 ## How to use
 
