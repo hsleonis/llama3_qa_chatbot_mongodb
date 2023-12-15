@@ -30,4 +30,26 @@ A conversational chat interface where users can interact with the `Llama-2` lang
 <img src="demo.png" width="650px" />
 
 ## How to use
+1. Install requirements:
+```python
+pip install -r requirements.txt
+```
+2. Install and run Ollama:
+https://python.langchain.com/docs/integrations/llms/ollama
+3. Fetch a model via `ollama pull <model family>`
+e.g., for Llama-7b: 
+```python
+ollama pull llama2
+```
+4. Place your Environment variables in the `.env` file.
+5. Run the app:
+```python
+streamlit run app.py
+```
+5. Visit http://localhost:8501 on your browser.
 
+## Links:
+1. **LangChain**: https://python.langchain.com/docs/get_started/introduction
+2. **Ollama**: https://ollama.ai/library/codellama
+3. **MongoDB**: https://www.mongodb.com
+4. **Streamlit**: https://streamlit.io
