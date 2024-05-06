@@ -1,7 +1,7 @@
 # Llama3 in MongoDB: Conversational QA App
 A conversational chat interface where users can interact with the `Llama-3` language model, and the conversation history is logged in `MongoDB` for future reference.
 
-<img src="QA app.png" width="650px" /> 
+<img src="" width="650px" />
 
 ## Features:
 
