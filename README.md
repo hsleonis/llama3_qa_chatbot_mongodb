@@ -15,7 +15,7 @@ A conversational chat interface where users can interact with the `Llama-3` lang
         The app starts with an initial prompt in the chat in `Langchain`, displaying a greeting message. The chat history is initialized if it doesn't exist in the session state.
 
 4. **MongoDB Integration**:
-        The app connects to `MongoDB` `Atlas` server. It retrieves the collection name and displays chat messages from the database on app rerun. The messages are fetched and displayed in the chat history container.
+        The app connects to `MongoDB`'s `Atlas` server. It retrieves the collection name and displays chat messages from the database on app rerun. The messages are fetched and displayed in the chat history container.
 
 5. **Response Processing**:
         The app processes user input by obtaining a response from the Ollama language model. The response is then displayed in the chat interface, and the messages are added to the chat history.
@@ -37,7 +37,7 @@ pip install -r requirements.txt
 2. Install and run Ollama:
 https://python.langchain.com/docs/integrations/llms/ollama
 3. Fetch a model via `ollama pull <model family>`
-e.g., for Llama-7b: 
+e.g., for Llama 3: 
 ```python
 ollama pull llama3
 ```
