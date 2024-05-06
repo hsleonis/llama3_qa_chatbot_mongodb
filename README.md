@@ -1,5 +1,5 @@
-# Llama2 in MongoDB: Conversational QA App
-A conversational chat interface where users can interact with the `Llama-2` language model, and the conversation history is logged in `MongoDB` for future reference.
+# Llama3 in MongoDB: Conversational QA App
+A conversational chat interface where users can interact with the `Llama-3` language model, and the conversation history is logged in `MongoDB` for future reference.
 
 <img src="QA app.png" width="650px" />
 
@@ -39,7 +39,7 @@ https://python.langchain.com/docs/integrations/llms/ollama
 3. Fetch a model via `ollama pull <model family>`
 e.g., for Llama-7b: 
 ```python
-ollama pull llama2
+ollama pull llama3
 ```
 4. Place your Environment variables in the `.env` file.
 5. Run the app:
